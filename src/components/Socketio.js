@@ -1,5 +1,5 @@
 import {io} from 'socket.io-client'
-export const socket = io("http://backend.digitalq.io:4000/")
+export const socket = io("https://chessbackend.arima.io/")
 
 socket.on('updateBoard', board => {
     return board
